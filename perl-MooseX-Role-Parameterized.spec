@@ -8,7 +8,7 @@
 Summary:	MooseX::Role::Parameterized::Meta::Trait::Parameterized - trait for parameterized roles
 Name:		perl-MooseX-Role-Parameterized
 Version:	0.27
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -53,6 +53,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes
+%dir %{perl_vendorlib}/MooseX/Role
 %{perl_vendorlib}/MooseX/Role/Parameterized.pm
 %{perl_vendorlib}/MooseX/Role/Parameterized
 %{_mandir}/man3/*
