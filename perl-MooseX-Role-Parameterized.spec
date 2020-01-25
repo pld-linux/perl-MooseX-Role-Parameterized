@@ -4,7 +4,6 @@
 
 %define		pdir	MooseX
 %define		pnam	Role-Parameterized
-%include	/usr/lib/rpm/macros.perl
 Summary:	MooseX::Role::Parameterized::Meta::Trait::Parameterized - trait for parameterized roles
 Name:		perl-MooseX-Role-Parameterized
 Version:	0.27
