@@ -6,13 +6,13 @@
 %define		pnam	Role-Parameterized
 Summary:	MooseX::Role::Parameterized::Meta::Trait::Parameterized - trait for parameterized roles
 Name:		perl-MooseX-Role-Parameterized
-Version:	0.27
-Release:	2
+Version:	1.11
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/MooseX/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	ff42187afa323a8fe7cba57ff78685de
+# Source0-md5:	a326fd9fb065dafc75fc0211797968e8
 URL:		http://search.cpan.org/dist/MooseX-Role-Parameterized/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -53,6 +53,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes
 %dir %{perl_vendorlib}/MooseX/Role
+%{perl_vendorlib}/MooseX/Role/Parameterised.pm
 %{perl_vendorlib}/MooseX/Role/Parameterized.pm
 %{perl_vendorlib}/MooseX/Role/Parameterized
 %{_mandir}/man3/*
