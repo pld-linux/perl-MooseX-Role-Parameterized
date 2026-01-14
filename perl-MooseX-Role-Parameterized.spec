@@ -8,7 +8,7 @@ Summary:	MooseX::Role::Parameterized - Moose roles with composition parameters
 Summary(pl.UTF-8):	MooseX::Role::Parameterized - role Moose z parametrami składania
 Name:		perl-MooseX-Role-Parameterized
 Version:	1.11
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
